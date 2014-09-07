@@ -12,11 +12,6 @@ chain of command
 pandoc <filename>.md -o <filename>.pdf; open -a Preview; open -a MacVim
 ```
 This compiles the pandoc document, brings Preview into focus so it pulls changes from disk, then opens
-MacVim to change focus back. For reference, I also have this in my .bashrc which makes this more seamless
-since by default MacVim from Terminal and Application launch are treated differently.
-
-```
-alias mvim="open -a MacVim"
-```
+MacVim to change focus back.
 
 Contributions are welcome if you are interested in extending this to more than just my own workflow
