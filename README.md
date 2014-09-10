@@ -6,6 +6,10 @@ My goal was to be able to write Pandoc style markdown specifically to be able to
 or block code within a markdown document. My preferred workflow would be vim with an auto updating
 pdf viewer alongside whenever file changes are written (perhaps something more fancy in the future).
 
+It looks like this:
+
+![Screenshot](screenshot.png)
+
 The code is setup as a Go project that watches for files changes. On file changes it executes this
 chain of command
 ```
